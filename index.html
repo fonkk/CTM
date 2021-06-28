@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Центр телемедицины</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/v1.1.2/dist/jquery.flip.min.js"></script>
+    <script src="JS/particles.js"></script>
+    <script src="JS/index.js"></script>
+</head>
+
+<body>
+
+    <section id="header">
+        <div id="header_div">
+            <nav>
+                <div id="left_part_of_nav">
+                    <div id="logo_div">
+                        <img src="Img/logo.svg" width="160px" height="60px">
+                        <p>Центр телемедицины</p>
+                    </div>
+                    <a href="">Главная</a>
+                    <a href="">Магазин</a>
+                    <a href="">Статьи</a>
+                    <a href="">О компании</a>
+                    <a href="">Лицензии</a>
+                </div>
+                <div id="right_part_of_nav">
+                    <button id="personal_area_button">Личный кабинет</button>
+                </div>
+            </nav>
+            <div id="header_content">
+                <div id="header_content_left">
+                    <h1>Простая и безопасная телемедицина</h1>
+                    <p>Следите за своим здоровьем<br>с помощью современных технологий</p>
+                    <p class="eye-catching_text">Нужна ли вам телемедицина? Пройдите простой тест, чтобы узнать</p>
+                    <button id="test_btn">Пройти тест</button>
+                    <img src="Img/Arrow.svg" alt="">
+                </div>
+                <div id="header_content_right">
+                    <img id="circle" src="Img/el.png"  alt="">
+                    <img id="img_in_circle" src="Img/header_image.svg" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <div id="wrapper">
+            <div id="particles-js"></div>
+        </div>
+    </section>
+    <section id="directions">
+        <div id="directions_div">
+            <h2>Направления</h2>
+            <div id="directions_blocks">
+                <div class="directions_block" id="cardiology">
+
+                        <img src="Img/cardiology_logo.svg" alt="">
+                        <p>Кардиология</p>
+                </div>
+                <div class="directions_block" id="gynecology">
+
+                        <img src="Img/gynecology_logo.svg" alt="">
+                    <p>Гинекология</p>
+                </div>
+                <div class="directions_block" id="urology">
+
+                        <img src="Img/urology_logo.svg" alt="">
+                        <p>Урология</p>
+                </div>
+
+
+                <div class="direction-info" id="cardiology-more" >
+                    <div>
+                        <img src = "Img/cardiology-info-image.png" alt="">
+                    </div>
+                    <div class="direction-info-content">
+                        <h2>Кардиология</h2>
+                        <p>Ваше сердце под контролем 24 часа в сутки с нашими приборами CardioControl для домашнего и стационарного снятия кардиограммы</p>
+                        <button class="more-button">Подробнее о продукте</button>
+                    </div>
+                    <div class="direction-info-downloads">
+                        <p>Мобильное приложение</p>
+                        <a href="" class="google"></a>
+                        <a href="" class="apple"></a>
+                    </div>
+                    <button type="button" name="button" class="close-diractions-info" id="close-diractions-info-cardiology">X</button>
+                </div>
+
+
+                <div class="direction-info" id="gynecology-more" >
+                    <div>
+                        <img src = "Img/cardiology-info-image.png" alt="">
+                    </div>
+                    <div class="direction-info-content">
+                        <h2>Кардиология</h2>
+                        <p>Ваше сердце под контролем 24 часа в сутки с нашими приборами CardioControl для домашнего и стационарного снятия кардиограммы</p>
+                        <button class="more-button">Подробнее о продукте</button>
+                    </div>
+                    <div class="direction-info-downloads">
+                        <p>Мобильное приложение</p>
+                        <a href="" class="google"></a>
+                        <a href="" class="apple"></a>
+                    </div>
+                    <button type="button" name="button" class="close-diractions-info" id="close-diractions-info-gynecology">X</button>
+                </div>
+
+
+                <div class="direction-info" id="urology-more" >
+                    <div>
+                        <img src = "Img/cardiology-info-image.png" alt="">
+                    </div>
+                    <div class="direction-info-content">
+                        <h2>Кардиология</h2>
+                        <p>Ваше сердце под контролем 24 часа в сутки с нашими приборами CardioControl для домашнего и стационарного снятия кардиограммы</p>
+                        <button class="more-button">Подробнее о продукте</button>
+                    </div>
+                    <div class="direction-info-downloads">
+                        <p>Мобильное приложение</p>
+                        <a href="" class="google"></a>
+                        <a href="" class="apple"></a>
+                    </div>
+                    <button type="button" name="button" class="close-diractions-info" id="close-diractions-info-urology">X</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="app">
+        <div id="app_div">
+            <div>
+                <h2>Теперь здоровье — это просто</h2>
+                <ul>
+                    <li><p id="li_1">Все устройства управляются с удобных приложений в вашем телефоне</p> </li>
+                    <li><p id="li_2">Вся статистика по вашей проблеме хранится в одном месте</p></li>
+                    <li><p id="li_3">Вы всегда можете связаться со специалистом и получить подробную обратную связь</p></li>
+                </ul>
+            </div>
+            <img  src="Img/phone1.png" id="phone1" alt="">
+                <img  src="Img/phone2.png" id="phone2" alt="">
+        </div>
+        <div id="wrapper">
+            <div id="particles-js-2"></div>
+        </div>
+    </section>
+    <section id="news">
+        <div id="news_div">
+            <img src="Img/circle_news.png">
+            <div id="news_headers">
+                <h2>Новости центра</h2>
+                <p>Мы постоянно держим руку на пульсе в сфере современных медицинских разработок</p>
+            </div>
+            <div id="news_blocks">
+                <div class="news_block">
+                    <img src="Img/news_1.png" alt="">
+                    <p class="date_p">18.04.2021</p>
+                    <p>Выступление на международном форуме</p>
+                </div>
+                <div class="news_block">
+                    <img src="" alt="">
+                    <p class="date_p"></p>
+                    <p></p>
+                </div>
+                <div class="news_block">
+                    <img src="" alt="">
+                    <p class="date_p"></p>
+                    <p></p>
+                </div>
+                <div class="news_block">
+                    <img src="" alt="">
+                    <p class="date_p"></p>
+                    <p></p>
+                </div>
+            </div>
+            <div id="news_buttons">
+                <button class="news_button" id="left_button"><img src="Img/pointer_left.png" alt=""></button>
+                <button class="radio checked" id="0" ></button>
+                <button class="radio" id="0" ></button>
+                <button class="radio" id="0" ></button>
+                <button class="radio" id="0" ></button>
+                <button class="news_button" id="right_button"><img src="Img/pointer_right.png" alt=""></button>
+            </div>
+        </div>
+    </section>
+    <section id="partners">
+        <div id="partners_div">
+            <h2>Партнеры</h2>
+            <div class="ant-carousel"> 
+                <div class="ant-carousel-hider">
+                    <ul class="ant-carousel-list">
+                        <li class="ant-carousel-element">
+                            <img src="Img/partner_paramonov.png"  alt="">
+                        </li>
+                        <li class="ant-carousel-element">
+                            <img src="Img/partner_paramonov.png"  alt="">
+                        </li>
+                        <li class="ant-carousel-element">
+                            <img src="Img/partner_paramonov.png"  alt="">
+                        </li>
+                        <li class="ant-carousel-element">
+                            <img src="Img/partner_paramonov.png"  alt="">
+                        </li>  
+                    </ul>
+                </div>  
+            </div>
+            
+            <button id="become_a_partner_btn">Стать партнером</button>
+        </div>
+        <div id="wrapper">
+            <div id="particles-js-3"></div>
+        </div>
+    </section>
+    <section id="contacts">
+        <img src="Img/line_footer.png">
+        <div id="contacts_div">
+            <div id="contacts_left">
+                <p class="eye-catching_text">Контакты</p>
+                <div>
+                    <div id="contacts_email_div">
+                        <img src="Img/email.png" alt="Наша электронная почта">
+                        <p class="contacts_text">examle@mail.ru</p>
+                    </div>
+                    <div id="contacts_phone_div">
+                        <img src="Img/phone.png" alt="Наш номер">
+                        <p class="contacts_text">+7(999)999-99-99</p>
+                    </div>
+                </div>
+            </div>
+            <div id="contacts_centre">
+                <p class="eye-catching_text">Обратная связь</p>
+                <button id="contacts_button"><img src="Img/telegram.png" alt="">Служба поддержки</button>
+            </div>
+            <div id="contacts_right">
+                <p class="eye-catching_text">Мы в соц сетях</p>
+                <div id="socials_div">
+                    <a href=""><img src="Img/instagram.png" class="socials" alt="Instagram"></a>
+                    <a href=""><img src="Img/facebook.png" class="socials" alt="Facebook"></a>
+                    <a href=""><img src="Img/vk.png" class="socials" alt="Вконтакте"></a>
+                    <a href=""><img src="Img/odnoklassniki.png" class="socials" alt="Одноклассиники"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="popup">
+        <div id="card1"  class="card">
+            <div class="front">
+                <form action="">
+                    <h3>Вход в личный кабинет</h3>
+                    <p class="label">Ваш логин:</p>
+                    <input type="text" placeholder="Логин">
+                    <p class="label">Пароль:</p>
+                    <input type="text" placeholder="Пароль">
+                    <a href="" id="forget_password">Забыли логин или пароль?</a>
+                    <button type="submit" id="enter_btn">Войти</button>
+                </form>
+                    <div class="line"></div>
+                    <div class="center-text">
+                        <p>Еще нет аккаунта?</p>
+                        <a class="toToggle">Зарегистрироваться</a>
+                    </div>
+
+                  <button type="button" name="button" class="close">X</button>
+            </div>
+            <div class="back">
+                    <h3>Регистрация</h3>
+                <form action=""></form>
+                    <div class="tabs">
+                        <div class="tabs--line" width="108px"></div>
+                        <a class="tabs--tab -active" id="1_a_in_tabs">Пользователь</a>
+                        <a class="tabs--tab">Врач</a>
+                    </div>
+                    <p class="label">Номер телефона или email</p>
+                    <input type="text" placeholder="Логин">
+                    <p class="label">Придумайте пароль</p>
+                    <input type="text" placeholder="Пароль">
+                    <p class="label">Повторите пароль</p>
+                    <input type="text" placeholder="Пароль">
+                    <a href="" id="forget_password"></a>
+                    <button type="submit" id="register_btn">Зарегистрироваться</button>
+                </form>
+                    <div class="line"></div>
+                    <div class="center-text">
+                        <p>Уже есть аккаунт?</p>
+                        <a class="toToggle">Войти</a>
+                    </div>
+                    <button type="button" name="button" class="close">X</button>
+            </div>
+        </div>
+    </div>
+    <script>
+      document.querySelector("#personal_area_button").onclick = popup;
+      document.querySelectorAll(".close").forEach(e => e.onclick = popup)
+
+      function popup(){
+          document.querySelector("#popup").classList.toggle('show');
+          document.querySelector("body").classList.toggle('show');
+      }
+    </script>
+</body>
+
+
+</html>
